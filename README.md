@@ -1,0 +1,2 @@
+# kydai
+ Go news site
