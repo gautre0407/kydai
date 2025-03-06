@@ -31,8 +31,7 @@ class HomeController extends Controller
      */
     public function index(Request $request)
     {
-        
-        return view('frontend.home');
+        // return redirect()->route('problem.index');
+        return view('mantis.home');
     }
-
 }

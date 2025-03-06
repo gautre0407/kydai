@@ -14,7 +14,7 @@ class CategoryController extends Controller
     public function index(Request $request)
     {
         
-        return view('frontend.category.index');
+        return view('mantis.category.index');
     }
 
 }

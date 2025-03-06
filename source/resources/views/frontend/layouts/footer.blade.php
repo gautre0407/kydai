@@ -8,7 +8,7 @@
                          <div class="single-footer-caption">
                              <!-- logo -->
                              <div class="footer-logo">
-                                 <a href="index.html"><img src="frontend/assets/img/logo/logo2_footer.png" alt=""></a>
+                                 <a href="index.html"><img src={{ asset('frontend/assets/img/logo/logo2_footer.png') }} alt=""></a>
                              </div>
                              <div class="footer-tittle">
                                  <div class="footer-pera">
@@ -39,7 +39,7 @@
                                          onblur="this.placeholder = ' Email Address '">
                                          <div class="form-icon">
                                          <button type="submit" name="submit" id="newsletter-submit"
-                                         class="email_icon newsletter-submit button-contactForm"><img src="frontend/assets/img/logo/form-iocn.png" alt=""></button>
+                                         class="email_icon newsletter-submit button-contactForm"><img src={{ asset('frontend/assets/img/logo/form-iocn.png') }} alt=""></button>
                                          </div>
                                          <div class="mt-10 info"></div>
                                      </form>
@@ -55,12 +55,12 @@
                          </div>
                          <div class="instagram-gellay">
                              <ul class="insta-feed">
-                                 <li><a href="#"><img src="frontend/assets/img/post/instra1.jpg" alt=""></a></li>
-                                 <li><a href="#"><img src="frontend/assets/img/post/instra2.jpg" alt=""></a></li>
-                                 <li><a href="#"><img src="frontend/assets/img/post/instra3.jpg" alt=""></a></li>
-                                 <li><a href="#"><img src="frontend/assets/img/post/instra4.jpg" alt=""></a></li>
-                                 <li><a href="#"><img src="frontend/assets/img/post/instra5.jpg" alt=""></a></li>
-                                 <li><a href="#"><img src="frontend/assets/img/post/instra6.jpg" alt=""></a></li>
+                                 <li><a href="#"><img src={{ asset('frontend/assets/img/post/instra1.jpg') }} alt=""></a></li>
+                                 <li><a href="#"><img src={{ asset('frontend/assets/img/post/instra2.jpg') }} alt=""></a></li>
+                                 <li><a href="#"><img src={{ asset('frontend/assets/img/post/instra3.jpg') }} alt=""></a></li>
+                                 <li><a href="#"><img src={{ asset('frontend/assets/img/post/instra4.jpg') }} alt=""></a></li>
+                                 <li><a href="#"><img src={{ asset('frontend/assets/img/post/instra5.jpg') }} alt=""></a></li>
+                                 <li><a href="#"><img src={{ asset('frontend/assets/img/post/instra6.jpg') }} alt=""></a></li>
                              </ul>
                          </div>
                      </div>
